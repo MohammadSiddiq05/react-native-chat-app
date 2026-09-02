@@ -61,7 +61,7 @@ export default function MessagesScreen() {
           value={search}
           onChangeText={setSearch}
           placeholder="Search Conversations... "
-          placeholderTextColor={Colors.outline}
+          placeholderTextColor={Colors.outlineVariant}
         />
         {search.length > 0 && (
           <TouchableOpacity onPress={() => setSearch("")}>
